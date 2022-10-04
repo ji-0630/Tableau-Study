@@ -1,0 +1,25 @@
+Data source : https://www.kaggle.com/loveall/clicks-conversion-tracking
+
+Reference : https://www.kaggle.com/mansimeena/facebook-ad-campaigns-analysis-sales-prediction
+
+데이터 설명:
+
+이 프로젝트에서 사용하는 데이터는 익명화된 어떤 회사의 소셜 미디어(Facebook) 광고 집행 결과에 대한 데이터입니다.
+
+각 데이터의 컬럼이 의미하는 바는 다음과 같습니다.
+
+ad_id : 각각의 광고에 대한 고유한(unique)한 ID입니다.
+xyz_campaign_id : X/Y/Z 회사에서 부여한 각 AD의 캠페인 ID (총 3개)
+fb_campaign_id : Facebook에서 부여한 각 AD의 캠페인 ID
+age : 각 AD가 노출된 사용자의 나이
+gender : 각 AD가 노출된 사용자의 성별
+interest : 사용자의 Facebook 공개프로필에 기반해서 파악한 사용자의 관심사 code
+Impressions : 광고가 노출된 횟수
+Clicks : 광고가 클릭된 횟수
+Spent : x/y/z가 해당 AD에 Facebook에 지출한 비용(paid)
+Total conversion : 광고를 본 후에 제품에 문의를 준 사람의 수
+Approved conversion : 광고를 본 후에 제품을 실제로 구매한 사람의 수
+
+
+데이터 분석의 목표
+: 전환율(Conversion) 분석
